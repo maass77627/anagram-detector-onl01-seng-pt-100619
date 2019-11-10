@@ -9,7 +9,11 @@ class Anagram
   def initialize(words)
     @words = words
   end
+  
+  def self.all
+    @@anagrams
+  end 
     
   
-  def self.match(anagrams) 
+  def self.match(words) 
     anagrams.each do |word|
