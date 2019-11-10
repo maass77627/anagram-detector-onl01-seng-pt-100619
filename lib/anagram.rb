@@ -13,4 +13,4 @@ class Anagram
   
   def match(name) 
     @@anagrams.each do |word|
-      word.split("")
+     letters =  word.split("")
