@@ -4,16 +4,12 @@ class Anagram
   
   @@anagrams = []
  
-  attr_accessor :words
+  attr_accessor :name
   
-  def initialize(words)
-    @words = words
+  def initialize(name)
+    @name = name
   end
-  
-  def self.all
-    @@anagrams
-  end 
     
   
-  def self.match(words) 
-    self.each do |word|
+  def match(name) 
+    name.each do |word|
