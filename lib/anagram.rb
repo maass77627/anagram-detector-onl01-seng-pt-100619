@@ -12,6 +12,13 @@ class Anagram
     
   
   def match(name) 
-    name.each do |word|
+    array = []
+    @@anagrams.each do |word|
      letters =  word.split("")
      new_letters = letters.sort
+     if new_letters == name.sort 
+       array << new_letters
+     end 
+   end 
+   array
+ end 
