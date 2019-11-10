@@ -8,4 +8,5 @@ class Anagram
     @word = word 
     
   
-  def self.match 
+  def self.match(word) 
+    
