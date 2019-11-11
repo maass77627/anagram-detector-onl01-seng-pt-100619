@@ -2,19 +2,18 @@
 
 class Anagram
  
-  attr_accessor :word 
+  attr_accessor :name 
   
-  def initialize(word)
-    @word = word
-    array = 
+  def initialize(name)
+    @name = name
+    
   end
     
   
   def match(array) 
     array.each do |word|
-     letters =  word.split("")
-     new_letters = letters.sort
-     if new_letters == name.sort 
+     letters =  word.split("").sort
+     if letters == name.sort 
        array << new_letters
      end 
    end 
