@@ -4,7 +4,7 @@ class Anagram
   
   @@anagrams = []
  
-  attr_accessor :name :words
+  attr_accessor :name 
   
   def initialize(name)
     @name = name
