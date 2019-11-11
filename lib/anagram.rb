@@ -2,12 +2,14 @@ class Anagram
   
  array = %w(some words)
  
-  attr_accessor :word 
+  attr_accessor :name 
   
-  def initialize(word)
-    @word = word 
+  def initialize(name)
+    @name = name 
   end 
   
   def match(array)
+    
     array.each do |word|
-    if word.split("".sort == 
+    if word.split("").sort == name.sort
+      anagrams << word 
