@@ -4,7 +4,8 @@ class Anagram
   attr_accessor :name 
   
   def initialize(name)
-    @name = name 
+    @name = name
+    array = %w()
   end 
   
   def match(array)
