@@ -1,5 +1,5 @@
 class Anagram
-  array = %w(some words)
+  array = []
  
   attr_accessor :name 
   
