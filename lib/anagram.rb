@@ -5,7 +5,6 @@ class Anagram
   
   def initialize(name)
     @name = name
-    array = %w()
   end 
   
   def match(array)
