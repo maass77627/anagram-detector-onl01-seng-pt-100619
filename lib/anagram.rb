@@ -15,6 +15,7 @@ class Anagram
       anagrams << word 
     end 
   end 
+  anagrams
 end 
 
 end 
