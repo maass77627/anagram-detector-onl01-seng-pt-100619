@@ -1,5 +1,4 @@
 class Anagram
-  array = []
  
   attr_accessor :name 
   
