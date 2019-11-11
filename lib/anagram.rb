@@ -1,6 +1,6 @@
 class Anagram
   
- array = %w(some words)
+ array = %w(some words))
  
   attr_accessor :name 
   
@@ -9,7 +9,7 @@ class Anagram
   end 
   
   def match(array)
-    
+    anagrams = []
     array.each do |word|
     if word.split("").sort == name.sort
       anagrams << word 
