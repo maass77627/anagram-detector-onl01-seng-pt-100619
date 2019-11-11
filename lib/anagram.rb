@@ -10,4 +10,4 @@ class Anagram
   
   def match(array)
     array.each do |word|
-      word
+    if word.split("")
