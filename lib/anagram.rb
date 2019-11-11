@@ -4,6 +4,7 @@ class Anagram
   
   def initialize(name)
     @name = name
+    array = []
   end 
   
   def match(array)
