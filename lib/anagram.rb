@@ -12,6 +12,7 @@ class Anagram
    if word.split("").sort == name.split("").sort
       anagrams << word 
     end
+  end
   anagrams
 end 
 
