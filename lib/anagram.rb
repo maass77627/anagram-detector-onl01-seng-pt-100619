@@ -1,13 +1,12 @@
 # Your code goes here!
 
 class Anagram
-  
-  @@anagrams = []
  
   attr_accessor :name 
   
   def initialize(name)
     @name = name
+    array = 
   end
     
   
